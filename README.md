@@ -63,7 +63,7 @@ print "Hello\nworld!";
 ### Comparison Operators
 ### Logical operators
 ### Assignment Operators
-<!-- include incremental operator -->
+include incremental operator
 
 ## Conditional Statements
 ### "if"
@@ -78,9 +78,9 @@ An else statement in Perl is denoted as "else".
 ## Functions
 
 ## Recursion
-Perl supports recursive routines. -->
+Perl supports recursive routines. 
 
-## Objects and classes
+## Objects and classes-->
 
 ## Notes and References
 [1] https://www.shlomifish.org/lecture/Perl/Newbies/lecture1/intro/history.html \
