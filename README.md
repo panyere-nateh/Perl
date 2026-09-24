@@ -50,11 +50,11 @@ print "Hello world!\n";
 print "Hello\nworld!";
 ```
 
-## Variables
+<!-- ## Variables
 ### Mutable Variables
 ### Immutable Variables
 
-<!-- ## Comments
+## Comments
 
 ## Booleans
 
