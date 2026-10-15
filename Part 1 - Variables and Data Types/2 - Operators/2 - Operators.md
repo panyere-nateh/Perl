@@ -11,6 +11,7 @@ Must be used with **numeric** data types.
 | Arithmetic Assignments   | +=,-=,*=,/=,%=,**= |
 | Change a number's sign   |          -         |
 | Increment/Decrement by 1 |       ++, --       |  
+
 Note: An integer division operator doesn't exist in Perl.
 
 ### String-Exclusive Operators
