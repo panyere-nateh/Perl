@@ -109,10 +109,10 @@ If you end up using numeric operators (arithmetic, comparison, assignment) on no
     * For example, if you were to compare the string `"unicorn"` with the number `0`, Perl would consider them equal, because all strings are defined as 0.
     * If you were to compare the string `"unicorn"` with the number `5`, Perl would not consider them equal.
 
-* When using numeric operators on an array, Perl reads the number of elements rather than the array itself, as shown [here](). [[12](https://www.math.utah.edu/docs/info/perl_6.html), [3](https://perldoc.perl.org/perlop)]
+* When using numeric operators on an array, Perl reads the number of elements rather than the array itself. [[12](https://www.math.utah.edu/docs/info/perl_6.html), [3](https://perldoc.perl.org/perlop)]
     * For example, if you have the array `@apples = ("green", "yellow", "red")`, performing `@apples + 5` would output 8, as `@apples` is viewed as having 3 elements.
 
-* When using numeric operators on a hash, Perl reads the number of keys, as shown [here](). [12?](https://www.geeksforgeeks.org/perl/perl-hash-in-scalar-and-list-context/)]
+* When using numeric operators on a hash, Perl reads the number of keys. [[13](https://www.geeksforgeeks.org/perl/perl-hash-in-scalar-and-list-context/)]
     * For example, if you have the hash `%clothes = (shirts => 20, jeans => 5, shoes => 10);`, performing `%clothes + 9` would output 12, as `%clothes` is viewed as having 3 keys
     * A more standard method of performing numeric operators on a hash is utilizing the value instead. For example: ``$clothes{jeans}++`` or ``$clothes{jeans} += 1`` would change the value of jeans to 6.
 
