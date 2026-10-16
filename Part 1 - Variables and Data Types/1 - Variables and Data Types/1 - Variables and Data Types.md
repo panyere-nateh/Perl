@@ -1,5 +1,5 @@
 # Variables and Data Types
-Writing variables in Perl is pretty straightforward. Similar to Python, they only need a name and an assigned value.
+Writing variables in Perl is pretty straightforward. They only need a name and an assigned value.
 
 Because Perl is dynamically typed [[1](https://web.eecs.utk.edu/~bvanderz/cs465/notes/perl/perl1.html)], we don't need to explicity declare a variable's data type. Instead, Perl implicity determines the type at runtime. Variables are also mutable, so we can freely overwrite and change a variable's stored value. 
 
