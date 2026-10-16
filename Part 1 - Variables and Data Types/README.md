@@ -3,6 +3,7 @@ This section discusses the main building blocks and data types that come with ru
 ## Tutorial Chapters
 1. [Variables and Data Types](1%20-%20Variables%20and%20Data%20Types/1%20-%20Variables%20and%20Data%20Types.md)
 2. [Operators](2%20-%20Operators/2%20-%20Operators.md)
+3. [Keywords and Reserved Words](Keywords%20and%20Reserved%20Words.md)
 
 ## Comments!
 In my code snippets, you'll see some comments. You can make similar inline comments in Perl using the `#` tag. 
