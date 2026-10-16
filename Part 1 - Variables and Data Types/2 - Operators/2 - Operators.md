@@ -22,7 +22,7 @@ Must be used with **string** data types. [[1](https://www.geeksforgeeks.org/perl
 | Concatenation                                            |         .          |
 | Repeating a string for an integer ``n`` amount of times  |         x  `n`     |
 | Assignment Operators for repeating strings               |       .=, x=       |  
-| Regular Expressions (Match/Negation Binding)             |       =~, /!~      |
+| Regular Expressions (Match/Negation Binding)             |       =\~, !\~     |
 | Increment a string alphabetically/alphanumerically       |         ++         |
 ### Comparison Operators
 Commonly used with **strings** and **numeric** data types.
