@@ -2,7 +2,8 @@
 This is an undergraduate project going over the programming language Perl.
 ### Table of Contents
 1. [Variables and Data Types](Part%201%20-%20Variables%20and%20Data%20Types/README.md)
-2. [Functions and Conditionals](Part%202%20-%20Functions%20and%20Conditionals/README.md)
+2. [Selection, Loops and Conditionals](Part%202%20-%20Selection,%20Loops%20and%20Conditionals/README.md)
+3. [Functions](Part%203%20-%20Functions/README.md)
    
 ## About Perl
 Perl is an interpreted programming language created by Larry Wall in 1987. Perl stands for *Practical Extraction and Report Language*, as the developer wanted an easy way to extract and manipulate text data on the UNIX operating system. [[1](https://www.shlomifish.org/lecture/Perl/Newbies/lecture1/intro/history.html)]
