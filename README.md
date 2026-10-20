@@ -2,7 +2,7 @@
 This is an undergraduate project going over the programming language Perl.
 ### Table of Contents
 1. [Variables and Data Types](Part%201%20-%20Variables%20and%20Data%20Types/README.md)
-2. [Selection, Loops and Conditionals](Part%202%20-%20Selection,%20Loops%20and%20Conditionals/README.md)
+2. [Conditional Statements and Loops](Part%202%20-%20Conditional%20Statements%20and%20Loops/README.md)
 3. [Functions and Subroutines](Part%203%20-%20Functions%20and%20Subroutines/README.md)
    
 ## About Perl
