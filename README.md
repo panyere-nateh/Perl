@@ -7,7 +7,7 @@ This is an undergraduate project going over the programming language Perl.
 ## About Perl
 Perl is an interpreted programming language created by Larry Wall in 1987. Perl stands for *Practical Extraction and Report Language*, as the developer wanted an easy way to extract and manipulate text data on the UNIX operating system. [[1](https://www.shlomifish.org/lecture/Perl/Newbies/lecture1/intro/history.html)]
 
-Perl is widely used for processing text. For example, you can pattern match, apply regular expressions, or parse strings when reading massive sets of data with Perl. It's also applied in web development, system administration, finance, and bioinformatics, and can perform automated tasks. [[2](http://www.catb.org/esr/writings/taoup/html/ch14s04.html#perl)] [[3](https://www.cio.com/article/274154/developer-you-used-perl-to-write-what.html)] [[4](https://www.youtube.com/watch?v=RCHhAEjEjKw)]
+Perl is widely used for processing text. For example, you can pattern match, apply regular expressions, or parse strings when reading massive sets of data with Perl. It's also applied in web development, system administration, finance, and bioinformatics, and can perform automated tasks. [[2](http://www.catb.org/esr/writings/taoup/html/ch14s04.html#perl), [3](https://www.cio.com/article/274154/developer-you-used-perl-to-write-what.html), [4](https://www.youtube.com/watch?v=RCHhAEjEjKw)]
 
 Web brands like Yahoo!, Amazon, Craiglist, iMDb as well as The Human Genome project were built on Perl, and it has been integrated in operating systems like Unix, Linux, Windows and macOS.
 
@@ -26,7 +26,7 @@ We can now get started in coding Perl. Open any text editor and type the followi
 #!/usr/local/bin/perl
 print "Hello world!";
 ```
-When you run this file, your terminal should output a simple "Hello world!". In the first line of the code, it tells the operating system the file path of the Perl interpreter. This is denoted by the she-bang symbol "#!", which is a feature specific to Linux environments. We have to include this line in *every* Perl program to make it executable. But this is ignored in Windows, so don't worry too much about it. [[6](https://www.cs.unc.edu/~jbs/resources/perl/perl-cgi/step1.html)] [[7](https://dev.to/grinnz/the-perl-shebang-1ojg)]
+When you run this file, your terminal should output a simple "Hello world!". In the first line of the code, it tells the operating system the file path of the Perl interpreter. This is denoted by the she-bang symbol "#!", which is a feature specific to Linux environments. We have to include this line in *every* Perl program to make it executable. But this is ignored in Windows, so don't worry too much about it. [[6](https://www.cs.unc.edu/~jbs/resources/perl/perl-cgi/step1.html), [7](https://dev.to/grinnz/the-perl-shebang-1ojg)]
 
 Then, the second line of the code calls the "print" function to output the input string "Hello world!". At the end, we close off with a semicolon (;), which we must include for every statement in Perl.
 
@@ -52,38 +52,6 @@ which is pretty off-putting. It's recommended to add an escape sequence at the e
 print "Hello world!\n";
 print "Hello\nworld!";
 ```
-
-<!-- ## Variables
-### Mutable Variables
-### Immutable Variables
-
-## Comments
-
-## Booleans
-
-## Operators
-### Arithmetic Operators
-### Comparison Operators
-### Logical operators
-### Assignment Operators
-include incremental operator
-
-## Conditional Statements
-### "if"
-An if statement in Perl is denoted as "if".
-### "elsif"
-An else-if statement in Perl is denoted as "elsif".
-### "else"
-An else statement in Perl is denoted as "else".
-
-## Loops
-
-## Functions
-
-## Recursion
-Perl supports recursive routines. 
-
-## Objects and classes-->
 
 ## Notes and References
 [1] https://www.shlomifish.org/lecture/Perl/Newbies/lecture1/intro/history.html \
