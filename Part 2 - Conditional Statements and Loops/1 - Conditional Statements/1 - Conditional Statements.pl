@@ -9,7 +9,7 @@ if ($num % 2 == 0) {print "Even!\n";}
 if ($num % 2 == 0) {print "Even!\n";}
 elsif ($num % 2 == 1) {print "Odd!\n";}
 
-# * if-else
+# if-else
 ## With the if-else ladder, we don't have to specify a condition for the else clause
 if ($num % 2 == 0) {print "Even!\n";}
 else {print "Odd!\n";}
@@ -76,4 +76,18 @@ unless ($num < 2 && $num > 0) {
     unless ($num * 2 == 9999) {
         print("Two wrongs make a right in unless statements!");
     }
+}
+
+# Short-circuit logic
+$x = 0;
+$y = 5;
+
+## Because ($x > 0) is false, Perl short-circuits and NEVER executes the right side ($y++)
+if ($x > 0 && $y++) { 
+    print "True!\n";
+}
+
+## Because ($y == 5) is true, Perl short-circuits and NEVER executes the right side ($x > 0)
+if ($y == 5 || $x > 0) {
+    print "True!\n";
 }
