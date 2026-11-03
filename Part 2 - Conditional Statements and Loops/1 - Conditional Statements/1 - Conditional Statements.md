@@ -28,7 +28,10 @@ Depending on the number of conditions you're tracking, Perl supports these follo
 
 To see examples of code implementing these statements, check: [1 - Conditional Statements.pl](1%20-%20Conditional%20Statements.pl)
 
-Note that Perl does not have a dedicated Boolean data type (TRUE/FALSE) that some programming languages come with. Instead, logical operators return 1 for TRUE statements and 0 for FALSE statements.
+## Notes
+* Perl does not have a dedicated Boolean data type (TRUE/FALSE) that some programming languages come with. Instead, logical operators return 1 for TRUE statements and 0 for FALSE statements. 
+* Since Perl uses `{ }` as delimiters, dangling else problems aren't an issue. 
+* As demonstated with the `&&`/`AND` and `||`/`OR` operators, [Perl supports short-circuit evaluation](https://github.com/panyere-nateh/Perl/blob/4389c707677d97353a53a7c1f53ab514b9e8d64f/Part%202%20-%20Conditional%20Statements%20and%20Loops/1%20-%20Conditional%20Statements/1%20-%20Conditional%20Statements.pl#L81).
 
 ## References
 [1] https://www.geeksforgeeks.org/perl/perl-decision-making-if-if-else-nested-if-if-elsif-ladder-unless-unless-else-unless-elsif/ \
