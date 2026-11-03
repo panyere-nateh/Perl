@@ -26,7 +26,7 @@ Depending on the number of conditions you're tracking, Perl supports these follo
 * unless-else
 * Nested unless's
 
-To see examples of code implementing these statements, check: [1 - Conditional Statements.pl](2%20-%Conditional%20Statements.pl)
+To see examples of code implementing these statements, check: [1 - Conditional Statements.pl](1%20-%20Conditional%20Statements.pl)
 
 Note that Perl does not have a dedicated Boolean data type (TRUE/FALSE) that some programming languages come with. Instead, logical operators return 1 for TRUE statements and 0 for FALSE statements.
 
