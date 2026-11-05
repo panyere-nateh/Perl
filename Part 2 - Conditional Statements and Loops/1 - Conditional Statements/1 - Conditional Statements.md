@@ -28,8 +28,8 @@ Depending on the number of conditions you're tracking, Perl supports these follo
 
 To see examples of code implementing these statements, check: [1 - Conditional Statements.pl](1%20-%20Conditional%20Statements.pl)
 
-## Switch Statements
-Perl also supports switch-case statements found in other programming languages called `given-when` statements. They take a given variable and compare it to other values to decide what to execute. [[2](https://www.geeksforgeeks.org/perl/perl-given-when-statement/)]
+## Switch Statments
+Perl also supports switch statements found in other programming languages using `given-when` statements. They take a given variable and compare it to other values to decide what to execute. [[2](https://www.geeksforgeeks.org/perl/perl-given-when-statement/)]
 ```perl
 given(expression)
 {
@@ -39,6 +39,7 @@ given(expression)
     default {# Code if no other case matches}
 }
 ```
+These statements can be an alternative when your conditional if-else statements become too long. However, most Perl programmers consider `given-when` statements  to be deprecated, and stick to using the above conditional statements.
 
 ## Notes
 * Perl does not have a dedicated Boolean data type (TRUE/FALSE) that some programming languages come with. Instead, logical operators return 1 for TRUE statements and 0 for FALSE statements. 
