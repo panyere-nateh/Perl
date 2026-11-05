@@ -28,6 +28,18 @@ Depending on the number of conditions you're tracking, Perl supports these follo
 
 To see examples of code implementing these statements, check: [1 - Conditional Statements.pl](1%20-%20Conditional%20Statements.pl)
 
+## Switch Statements
+Perl also supports switch-case statements found in other programming languages called `given-when` statements. They take a given variable and compare it to other values to decide what to execute. [[2](https://www.geeksforgeeks.org/perl/perl-given-when-statement/)]
+```perl
+given(expression)
+{
+    when(value1) {Statement;}
+    when(value2) {Statement;}
+
+    default {# Code if no other case matches}
+}
+```
+
 ## Notes
 * Perl does not have a dedicated Boolean data type (TRUE/FALSE) that some programming languages come with. Instead, logical operators return 1 for TRUE statements and 0 for FALSE statements. 
 * Since Perl uses `{ }` as delimiters, dangling else problems aren't an issue. 
@@ -35,3 +47,4 @@ To see examples of code implementing these statements, check: [1 - Conditional S
 
 ## References
 [1] https://www.geeksforgeeks.org/perl/perl-decision-making-if-if-else-nested-if-if-elsif-ladder-unless-unless-else-unless-elsif/ \
+[2] https://www.geeksforgeeks.org/perl/perl-given-when-statement/
