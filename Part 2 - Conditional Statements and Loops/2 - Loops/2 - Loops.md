@@ -8,7 +8,7 @@ Perl tests the condition of a loop before it is executed. [[1](https://www.tutor
 | Term       | Task                                                                                                      |
 |------------|-----------------------------------------------------------------------------------------------------------|
 | for        | Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable. |
-| foreach    | Iterates over an array's value and sets the variable VAR to be each element of the list in turn.          |
+| foreach    | Iterates over an array's elements by assigning each of its values to the loop control variable.           |
 | while      | Repeats a statement or group of statements while a given condition is true.                               |
 | do...while | Like a while statement, except that it tests the condition at the end of the loop body                    |  
 | until      | The opposite of a while loop. Repeats a statement or group of statements until a given condition is true. | 
