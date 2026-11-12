@@ -20,7 +20,8 @@ print multiply2(3,6) . "\n"; #18
 
 # A function that calculates factorials (using recursion)
 sub factorial {
-    my ($n) = @_; #use "my", so that the variable is considered local and can update per recursion (otherwise 1 is returned because the function overwrites itself)
+    #use "my", so that the variable is considered local and can update per recursion (otherwise 1 is returned because the function overwrites itself)
+    my ($n) = @_;
     return 1 if $n <= 1;
     return($n * factorial($n - 1));
 };
