@@ -1,7 +1,7 @@
 # Built-in Perl Functions
 Perl comes with several functions for different purposes and data types. Note that some functions act as keywords or operators. For more in detail, check: [this source](https://perldoc.perl.org/functions)
 
-Listed below are commonly used functions in Perl programming. To see implementations of some of these functions, check: [3 - Built-in Perl Functions.pl](3%20-%Built-in%20Perl%20Functions/3%20-%Built-in%20Perl%20Functions.pl)
+Listed below are functions commonly used in Perl programming. To see implementations of some of these functions, check: [3 - Built-in Perl Functions.pl](3%20-%Built-in%20Perl%20Functions/3%20-%Built-in%20Perl%20Functions.pl)
 
 ## Scalars or strings ($)
 chomp, chop, chr, crypt, fc, hex, index, lc, lcfirst, length, oct, ord, pack, q//, qq//, reverse, rindex, sprintf, substr, tr///, uc, ucfirst, y///
