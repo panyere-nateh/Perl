@@ -112,8 +112,8 @@ sub factorial {
 
 ## Other Notes
 * Because all declarations take effect at compile time, we can place Perl functions anywhere in our code file. [[11](https://perldoc.perl.org/perlsyn#Declarations)]
-* When mixing data types like arrays or hashes in a function's parameters, `@_` ends up flattening them into one, unified array (rather than a nested array). Which is the mus be passed as references: `\@array` and `\%hash`.
-* All Perl variables are stored in a heap-like array, classified by references to their datatype SV, AV and HV. Lexical variables are destroyed once their lexical scope is exited, while package variables are destroyed once the program exits. [[12](https://perldoc.perl.org/5.005/perlguts)]
+* When mixing data types like arrays or hashes in a function's parameters, `@_` ends up flattening them into one, unified array (rather than a nested array). So, you have to pass them as references: `\@array` and `\%hash`.
+* All Perl variables are stored in a heap-like array, classified by references to their datatype SV, AV and HV. Lexical variables are destroyed when their lexical scope is exited, while package variables are destroyed once the program exits. [[12](https://perldoc.perl.org/5.005/perlguts)]
 
 ## References
 [1] https://www.perl.com/article/passing-by/ \
