@@ -125,9 +125,9 @@ sub factorial {
 [7] https://metacpan.org/pod/perlfunc#our-VARLIST \
 [8] https://metacpan.org/pod/perlfunc#local-VARLIST \
 [9] https://metacpan.org/pod/perlfunc#state-VARLIST \
-[10] https://perldoc.perl.org/functions/__SUB__ \
+[10] https://perldoc.perl.org/functions/__SUB__/ \
 [11] https://perldoc.perl.org/perlsyn#Declarations \
-[12] https://perldoc.perl.org/5.005/perlguts \
+[12] https://perldoc.perl.org/5.005/perlguts 
 
 
 https://perldoc.perl.org/perlsub
