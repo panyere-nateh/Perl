@@ -22,6 +22,7 @@ print multiply2(3,6) . "\n"; #18
 sub factorial {
     #use "my", so that the variable is considered local and can update per recursion (otherwise 1 is returned because the function overwrites itself)
     my ($n) = @_;
+    return undef if $n < 0;
     return 1 if $n <= 1;
     return($n * factorial($n - 1));
 };
